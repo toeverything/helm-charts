@@ -25,7 +25,7 @@ spec:
                                 key: token
                   livenessProbe:
                       httpGet:
-                          path: /ready
+                          path: /healthcheck
                           port: 2000
                       failureThreshold: 1
                       initialDelaySeconds: 10
