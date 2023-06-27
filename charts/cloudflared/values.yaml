@@ -1,5 +1,0 @@
-cloudflared:
-    resources:
-        cpu: 250m
-        ephemeralStorage: 32Mi
-        memory: 0.25Gi
