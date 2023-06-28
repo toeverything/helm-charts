@@ -2,6 +2,20 @@ apiVersion: v1
 entries:
   affine-cloud:
   - apiVersion: v2
+    appVersion: 0.6.1
+    created: "2023-06-28T17:34:25.410808101Z"
+    dependencies:
+    - name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 12.5.8
+    description: A Helm chart for AFFiNE Cloud
+    digest: 65cb31fca66b0d2f29254538742985e881ce6e1cc06b89a34a98e70575e1c54d
+    name: affine-cloud
+    type: application
+    urls:
+    - https://github.com/toeverything/helm-charts/releases/download/affine-cloud-0.6.1/affine-cloud-0.6.1.tgz
+    version: 0.6.1
+  - apiVersion: v2
     appVersion: 0.6.0
     created: "2023-06-27T15:33:26.426399159Z"
     dependencies:
@@ -15,4 +29,4 @@ entries:
     urls:
     - https://github.com/toeverything/helm-charts/releases/download/affine-cloud-0.6.0/affine-cloud-0.6.0.tgz
     version: 0.6.0
-generated: "2023-06-27T15:33:26.426410859Z"
+generated: "2023-06-28T17:34:25.410820401Z"
